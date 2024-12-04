@@ -2,7 +2,7 @@ package Day_1.PrimeNumber;
 
 public class PrimeNumber {
     public static  void main(String[] args){
-        int num = 1;
+        int num = 14;
         Boolean result = isPrime(num);
 
         if (result) {
@@ -15,7 +15,7 @@ public class PrimeNumber {
         int count = 0;
 
         for(int i = 1; i <= number ;i++){
-            if(number/i == 0){
+            if(number%i == 0){
                 count++;
             }
         }
